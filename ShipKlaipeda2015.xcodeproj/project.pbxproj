@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A37A4F281BB6DD0F0007751F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A37A4F271BB6DD0F0007751F /* main.m */; };
+		A37A4F2B1BB6DD0F0007751F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A37A4F2A1BB6DD0F0007751F /* AppDelegate.m */; };
+		A37A4F2E1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A37A4F2C1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodeld */; };
+		A37A4F311BB6DD0F0007751F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A37A4F301BB6DD0F0007751F /* ViewController.m */; };
+		A37A4F341BB6DD0F0007751F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37A4F321BB6DD0F0007751F /* Main.storyboard */; };
+		A37A4F361BB6DD0F0007751F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37A4F351BB6DD0F0007751F /* Images.xcassets */; };
+		A37A4F391BB6DD0F0007751F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A37A4F371BB6DD0F0007751F /* LaunchScreen.xib */; };
+		A37A4F451BB6DD0F0007751F /* ShipKlaipeda2015Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A37A4F441BB6DD0F0007751F /* ShipKlaipeda2015Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A37A4F3F1BB6DD0F0007751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37A4F1A1BB6DD0F0007751F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37A4F211BB6DD0F0007751F;
+			remoteInfo = ShipKlaipeda2015;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A37A4F221BB6DD0F0007751F /* ShipKlaipeda2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipKlaipeda2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37A4F261BB6DD0F0007751F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37A4F271BB6DD0F0007751F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A37A4F291BB6DD0F0007751F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A37A4F2A1BB6DD0F0007751F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A37A4F2D1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShipKlaipeda2015.xcdatamodel; sourceTree = "<group>"; };
+		A37A4F2F1BB6DD0F0007751F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A37A4F301BB6DD0F0007751F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A37A4F331BB6DD0F0007751F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A37A4F351BB6DD0F0007751F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A37A4F381BB6DD0F0007751F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A37A4F3E1BB6DD0F0007751F /* ShipKlaipeda2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipKlaipeda2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37A4F431BB6DD0F0007751F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37A4F441BB6DD0F0007751F /* ShipKlaipeda2015Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShipKlaipeda2015Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37A4F1F1BB6DD0F0007751F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37A4F3B1BB6DD0F0007751F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A37A4F191BB6DD0F0007751F = {
+			isa = PBXGroup;
+			children = (
+				A37A4F241BB6DD0F0007751F /* ShipKlaipeda2015 */,
+				A37A4F411BB6DD0F0007751F /* ShipKlaipeda2015Tests */,
+				A37A4F231BB6DD0F0007751F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A37A4F231BB6DD0F0007751F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37A4F221BB6DD0F0007751F /* ShipKlaipeda2015.app */,
+				A37A4F3E1BB6DD0F0007751F /* ShipKlaipeda2015Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37A4F241BB6DD0F0007751F /* ShipKlaipeda2015 */ = {
+			isa = PBXGroup;
+			children = (
+				A37A4F291BB6DD0F0007751F /* AppDelegate.h */,
+				A37A4F2A1BB6DD0F0007751F /* AppDelegate.m */,
+				A37A4F2F1BB6DD0F0007751F /* ViewController.h */,
+				A37A4F301BB6DD0F0007751F /* ViewController.m */,
+				A37A4F321BB6DD0F0007751F /* Main.storyboard */,
+				A37A4F351BB6DD0F0007751F /* Images.xcassets */,
+				A37A4F371BB6DD0F0007751F /* LaunchScreen.xib */,
+				A37A4F2C1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodeld */,
+				A37A4F251BB6DD0F0007751F /* Supporting Files */,
+			);
+			path = ShipKlaipeda2015;
+			sourceTree = "<group>";
+		};
+		A37A4F251BB6DD0F0007751F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37A4F261BB6DD0F0007751F /* Info.plist */,
+				A37A4F271BB6DD0F0007751F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A37A4F411BB6DD0F0007751F /* ShipKlaipeda2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A37A4F441BB6DD0F0007751F /* ShipKlaipeda2015Tests.m */,
+				A37A4F421BB6DD0F0007751F /* Supporting Files */,
+			);
+			path = ShipKlaipeda2015Tests;
+			sourceTree = "<group>";
+		};
+		A37A4F421BB6DD0F0007751F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37A4F431BB6DD0F0007751F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37A4F211BB6DD0F0007751F /* ShipKlaipeda2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37A4F481BB6DD0F0007751F /* Build configuration list for PBXNativeTarget "ShipKlaipeda2015" */;
+			buildPhases = (
+				A37A4F1E1BB6DD0F0007751F /* Sources */,
+				A37A4F1F1BB6DD0F0007751F /* Frameworks */,
+				A37A4F201BB6DD0F0007751F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipKlaipeda2015;
+			productName = ShipKlaipeda2015;
+			productReference = A37A4F221BB6DD0F0007751F /* ShipKlaipeda2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37A4F3D1BB6DD0F0007751F /* ShipKlaipeda2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37A4F4B1BB6DD0F0007751F /* Build configuration list for PBXNativeTarget "ShipKlaipeda2015Tests" */;
+			buildPhases = (
+				A37A4F3A1BB6DD0F0007751F /* Sources */,
+				A37A4F3B1BB6DD0F0007751F /* Frameworks */,
+				A37A4F3C1BB6DD0F0007751F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37A4F401BB6DD0F0007751F /* PBXTargetDependency */,
+			);
+			name = ShipKlaipeda2015Tests;
+			productName = ShipKlaipeda2015Tests;
+			productReference = A37A4F3E1BB6DD0F0007751F /* ShipKlaipeda2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37A4F1A1BB6DD0F0007751F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Darius Miliauskas";
+				TargetAttributes = {
+					A37A4F211BB6DD0F0007751F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A37A4F3D1BB6DD0F0007751F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A37A4F211BB6DD0F0007751F;
+					};
+				};
+			};
+			buildConfigurationList = A37A4F1D1BB6DD0F0007751F /* Build configuration list for PBXProject "ShipKlaipeda2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37A4F191BB6DD0F0007751F;
+			productRefGroup = A37A4F231BB6DD0F0007751F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37A4F211BB6DD0F0007751F /* ShipKlaipeda2015 */,
+				A37A4F3D1BB6DD0F0007751F /* ShipKlaipeda2015Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37A4F201BB6DD0F0007751F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37A4F341BB6DD0F0007751F /* Main.storyboard in Resources */,
+				A37A4F391BB6DD0F0007751F /* LaunchScreen.xib in Resources */,
+				A37A4F361BB6DD0F0007751F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37A4F3C1BB6DD0F0007751F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37A4F1E1BB6DD0F0007751F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37A4F2E1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodeld in Sources */,
+				A37A4F2B1BB6DD0F0007751F /* AppDelegate.m in Sources */,
+				A37A4F311BB6DD0F0007751F /* ViewController.m in Sources */,
+				A37A4F281BB6DD0F0007751F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37A4F3A1BB6DD0F0007751F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37A4F451BB6DD0F0007751F /* ShipKlaipeda2015Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37A4F401BB6DD0F0007751F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37A4F211BB6DD0F0007751F /* ShipKlaipeda2015 */;
+			targetProxy = A37A4F3F1BB6DD0F0007751F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A37A4F321BB6DD0F0007751F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37A4F331BB6DD0F0007751F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A37A4F371BB6DD0F0007751F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37A4F381BB6DD0F0007751F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37A4F461BB6DD0F0007751F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A37A4F471BB6DD0F0007751F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37A4F491BB6DD0F0007751F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShipKlaipeda2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A37A4F4A1BB6DD0F0007751F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShipKlaipeda2015/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A37A4F4C1BB6DD0F0007751F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShipKlaipeda2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipKlaipeda2015.app/ShipKlaipeda2015";
+			};
+			name = Debug;
+		};
+		A37A4F4D1BB6DD0F0007751F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShipKlaipeda2015Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipKlaipeda2015.app/ShipKlaipeda2015";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37A4F1D1BB6DD0F0007751F /* Build configuration list for PBXProject "ShipKlaipeda2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37A4F461BB6DD0F0007751F /* Debug */,
+				A37A4F471BB6DD0F0007751F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37A4F481BB6DD0F0007751F /* Build configuration list for PBXNativeTarget "ShipKlaipeda2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37A4F491BB6DD0F0007751F /* Debug */,
+				A37A4F4A1BB6DD0F0007751F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A37A4F4B1BB6DD0F0007751F /* Build configuration list for PBXNativeTarget "ShipKlaipeda2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37A4F4C1BB6DD0F0007751F /* Debug */,
+				A37A4F4D1BB6DD0F0007751F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A37A4F2C1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A37A4F2D1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodel */,
+			);
+			currentVersion = A37A4F2D1BB6DD0F0007751F /* ShipKlaipeda2015.xcdatamodel */;
+			path = ShipKlaipeda2015.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A37A4F1A1BB6DD0F0007751F /* Project object */;
+}
